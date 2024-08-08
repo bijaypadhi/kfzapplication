@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* AI Tools CSS */
+.ai-tools {
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+.ai-tools h2 {
+  color: #6747c7;
+  margin-bottom: 1rem;
+}
+
+.ai-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.ai-buttons button, .generate-stories {
+  padding: 0.5rem 1rem;
+  background-color: #6747c7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generate-stories {
+  margin-top: 1rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f0f0ff;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1.5rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cart-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.login-button {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 20px;
+  color: #007bff;
+  cursor: pointer;
+}
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f0f0ff;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #6747c7;
+  margin-bottom: 1.5rem;
+}
+
+.search-bar {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+}
+
+.search-bar button {
+  padding: 0.75rem 1rem;
+  background-color: #6747c7;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+.book-preview-cards {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  overflow-x: auto;
+}
+
+.book-preview-card {
+  flex: 0 0 auto;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.book-preview-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.preview-button, .add-to-cart-button {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.preview-button {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.add-to-cart-button {
+  background-color: #6747c7;
+  color: #fff;
+}
+.footer {
+  background-color: #f0f0ff;
+  padding: 1rem 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+}
